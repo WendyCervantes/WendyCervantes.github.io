@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #8b1a1a; /* Color del texto del footer */
+  padding: 50px 0; /* Espaciado interno del footer */
+}
+
+.footer h3 {
+  color: #fff; /* Color del texto del título del footer */
+}
+
+.footer p {
+  color: #fff; /* Color del texto del contenido del footer */
+}
+
+/* Estilos generales */
+.nav{
+  
+}
+.offcanvas {
+    background-color: #1e293b;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Estilos específicos para pantallas pequeñas (menos de 768px) */
+@media (max-width: 768px) {
+    .navbar-nav > li:hover {
+        background-color: #590df0;
+    }
+}
+
+/* Agrega más estilos según sea necesario */
+.contenedor {
+    /* Estilos para el contenido en el contenedor */
+}
+
+footer {
+    /* Estilos para el pie de página */
+}

@@ -1,0 +1,110 @@
+h1{
+    font-family: 'Tabinda';
+    text-align: center;
+}
+h3{
+    font-family: 'cCagarAlam';
+}
+p
+{
+    font-family: Arial, sans-serif; /* Cambiar el tipo de letra */
+}
+@font-face {
+    font-family: 'Magic Spark';
+    src: url('imagenes/textos/Magic Spark.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'aAdulsaScript';
+    src: url('imagenes/textos/aAdulsaScript.otf') format('opentype');
+  }
+
+@font-face {
+    font-family: 'cCagarAlam';
+    src: url('imagenes/textos/cCagarAlam.ttf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Tabinda';
+    src: url('imagenes/textos/Tabinda.ttf') format('opentype');
+  }
+
+body{
+    background-color: aliceblue;
+    font-family: 'Magic Spark', sans-serif;
+}
+  
+.navbar-brand {
+    font-family: 'cCagarAlam';
+    /*font-family: Arial, sans-serif; /* Cambiar el tipo de letra */
+    font-size: 20px; /* Cambiar el tamaño de la fuente */
+    color: aliceblue; /* Cambiar el color del texto (por ejemplo, rojo) */
+}
+nav 
+{
+    /*background: linear-gradient( #808080,#1218d1) ;
+    background-image: linear-gradient(to right, #141860, #474752);*/
+    background: repeating-linear-gradient(#070611,#2123b7) ;
+    color:aliceblue;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.offcanvas 
+{
+    background-color: #1e293b;
+}
+.offcanvas-title
+{
+    color: aliceblue;
+}
+.navbar-toggler 
+{
+    border: none;
+}
+.navbar-toggler:focus 
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.tex-color-iconoSociales
+{
+    color: aliceblue;
+}
+
+.li:hover
+{
+    @media (max-width: 768px){
+    background-color: #100996;
+    }
+}
+.imagen-carusel {
+    width: 300px;
+    height: 200px;
+  }
+
+.contenedor-mvv {
+    margin: 20px 10px; /* Margen superior e inferior de 20px, margen izquierdo y derecho de 10px */
+    padding: 10px 20px; /* Relleno superior e inferior de 10px, relleno izquierdo y derecho de 20px */
+}
+
+.acorde-preguntas
+{
+    margin: 20px 10px; /* Margen superior e inferior de 20px, margen izquierdo y derecho de 10px */
+    padding: 10px 20px; /* Relleno superior e inferior de 10px, relleno izquierdo y derecho de 20px */
+}
+
+.carousel-item img {
+    width: 400px; /* Cambia el valor según tus necesidades */
+    height: auto; /* Esto mantiene la proporción */
+}
+footer
+{
+    background: repeating-linear-gradient(#070611,#2123b7) ;
+    color:aliceblue;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
